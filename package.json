@@ -2,7 +2,7 @@
   "name": "astroid-sdk",
   "version": "0.1.0",
   "private": true,
-  "description": "The official TypeScript developer toolkit for Astroid — the Financial Operating System for autonomous AI agents on Stellar.",
+  "description": "The official TypeScript developer toolkit for Astroid \u2014 the Financial Operating System for autonomous AI agents on Stellar.",
   "license": "MIT",
   "author": "Astroid",
   "homepage": "https://github.com/AstroidHQ/astroid-sdk",
@@ -20,7 +20,7 @@
     ]
   },
   "scripts": {
-    "build": "pnpm -r --filter \"./packages/*\" run build",
+    "build": "node api.js && pnpm -r --filter \"./packages/*\" run build",
     "typecheck": "pnpm -r --filter \"./packages/*\" run typecheck",
     "test": "pnpm -r --filter \"./packages/*\" run test",
     "lint": "eslint \"packages/*/src/**/*.{ts,tsx}\"",

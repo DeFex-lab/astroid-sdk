@@ -30,10 +30,12 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 .idea/
-.vscode/*
-!.vscode/extensions.json
 
 # Misc
 .cache/
 .turbo/
 *.tgz
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
